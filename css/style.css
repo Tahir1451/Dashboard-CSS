@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: hsl(226, 43%, 10%);
+
+  position: relative;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 90rem;
+  margin: 20rem auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+/* ///////////////////////////////////// */
+
+.user {
+  background-color: #1c1f4a;
+  border-radius: 1.2rem;
+  grid-row: 1/3;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user-layer {
+  background-color: #5847eb;
+  color: #fff;
+  font-weight: 300;
+  padding: 1.8rem;
+  padding-bottom: 4.2rem;
+  border-radius: 1.2rem;
+}
+
+.report {
+  font-size: 1.6rem;
+  margin: 0.5rem;
+}
+
+.user-name {
+  font-size: 3.2rem;
+}
+
+.user-layer img {
+  width: 4.8rem;
+  margin-bottom: 2.4rem;
+  border-radius: 50%;
+
+  border: 3px solid #fff;
+}
+.user-list {
+  list-style: none;
+  padding: 1.8rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  font-size: 1.8rem;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #6f76c8;
+
+  transition: all 0.3s;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ////////////////////////////////// */
+
+.card {
+  display: flex;
+  border-radius: 1.4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.work {
+  background-color: #ff8c66;
+}
+.play {
+  background-color: #56c2e6;
+}
+.study {
+  background-color: #ff5c7c;
+}
+.exercise {
+  background-color: #4acf81;
+}
+.social {
+  background-color: #7536d3;
+}
+.social .card-icon {
+  top: -5px;
+}
+.self-care {
+  background-color: #f1c65b;
+}
+
+.card-icon {
+  position: absolute;
+  width: 4.8rem;
+  top: 0;
+  right: 0;
+}
+
+.layer {
+  padding: 2.4rem;
+  width: 100%;
+  height: 83%;
+  background-color: #1c1f4a;
+  align-self: flex-end;
+  font-weight: 400;
+  border-radius: 1.2rem;
+  z-index: 2;
+  transition: all 0.3s;
+}
+
+.layer:hover {
+  background-color: #33298a;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 1.8rem;
+}
+.card-header span {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.hour {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 0.8rem;
+}
+
+.last-week {
+  font-size: 1.4rem;
+  color: #bdc1ff;
+}

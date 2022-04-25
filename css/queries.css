@@ -1,0 +1,56 @@
+@media (max-width: 34rem) {
+  .user {
+    max-height: 23rem;
+    padding-bottom: 2rem;
+  }
+
+  .container {
+    width: 38rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user-layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+
+    padding: 1.2rem;
+  }
+
+  .user-image-box img {
+    margin-top: 3rem;
+    width: 8rem;
+  }
+
+  .user-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 0.6rem;
+
+    text-align: center;
+    font-size: 1.9rem;
+  }
+
+  .hour {
+    margin: 0;
+  }
+
+  .card-text-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card {
+    height: 18rem;
+  }
+  .layer {
+    height: 79%;
+  }
+
+  .card-icon {
+    width: 6rem;
+  }
+}
